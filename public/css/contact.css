@@ -1,0 +1,77 @@
+
+/* 768 media query */
+
+
+
+ .mainarea{
+
+	background-color:#38b16e ;
+	background-image: linear-gradient(to right,#42b45d,#20ab94);
+	padding: 50px;
+	max-height: 400px;
+}
+.mainarea img{
+	max-height: 200px;
+	opacity: 0.4;
+}
+.breadcrumbcont{
+
+}
+
+.mainabout img{
+	opacity: 0.5;
+	max-height: 250px;
+	width: 100%;
+}
+#footer1{
+	margin-top: 435px !important;
+}
+
+/* our client */
+ .ourclient .carousel-inner img {
+    max-height: 115px !important;
+}
+
+.carousel {
+	width: 100%;
+  }
+
+  .slide-box {
+	display: flex;
+	justify-content: space-between;
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+	.slide-box img {
+	  -ms-flex: 0 0 50%;
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+	.slide-box img {
+	  -ms-flex: 0 0 33.3333%;
+	  flex: 0 0 33.3333%;
+	  max-width: 33.3333%;
+	}
+  }
+
+  @media (min-width: 992px)
+  {
+	.slide-box img {
+	  -ms-flex: 0 0 25%;
+	  flex: 0 0 25%;
+	  max-width: 25%;
+	}
+  }
+
+  .carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	border-radius: .5rem;
+  }
+  .ourclient .carousel-inner img{
+	max-height: 149px !important;
+
+}

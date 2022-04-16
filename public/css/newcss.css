@@ -1,0 +1,173 @@
+
+/* css for carousal slider */
+.carousal .carousel-inner img{
+	max-height: 250px;
+}
+
+/* css for blog page */
+.blog .banner-img img{
+	max-height: 270px;
+}
+#blogsection1{
+	background-color: white;
+	padding: 20px;
+}
+.blog-header1 img{
+	width: 100%;
+	max-height: 350px;
+}
+.blog-header img{
+	width: 100%;
+	max-height: 350px;
+}
+.blog-title{
+	background-color:#38b16e ;
+	background-image: linear-gradient(to right,#42b45d,#20ab94);
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+.blog-icon li i{
+	color: gray;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.blog-icon li i:hover{
+	color: #00a651;
+}
+.bloglatest{
+	background-color: white;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+
+}
+.blog-img img{
+	width: 100%;
+
+}
+.blog-latestcontent{
+	position: absolute;
+	bottom: 5px;
+	color: white;
+}
+.blog-latestcontent h3{
+	font-size: 26px;
+}
+.blog-side h3{
+	font-size: 18px;
+}
+.blogad-img img{
+	width: 100%;
+}
+.blogad-content{
+	position: absolute;
+	bottom: 50%;
+	left: 28%;
+	color: white;
+}
+.blog-ad{
+	margin-top: 20px;
+}
+.blog .Facebook{
+background-color: #3b5998;
+font-weight: bold;
+
+}
+.blog .Instagram{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    font-weight: bold;
+}
+.blog .Twitter{
+	background-color: #1DA1F2;
+	font-weight: bold;
+}
+.blog-header{
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+input::-webkit-input-placeholder {
+	color: gray !important;
+}
+.blog .subscribe-newsletter h3{
+	letter-spacing: 4px;
+	margin-bottom: 10px;
+}
+/* list2  */
+
+#list2 .dated{
+	font-size: 14px;
+}
+#list2 .ad-footer{
+	background-color: #F6F6F6;
+}
+.list2-icon i{
+	color: gray;
+}
+.list2-icon a{
+	color: gray;
+}
+.list2-icon i:hover{
+	color: #008c44;
+}
+.list2-icon a:hover{
+	color: #008c44;
+}
+.list2-icon{
+	margin-left: 20px;
+}
+
+
+.pagination .active{
+background-color: #00a651;
+color: white;
+}
+.col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .featuredimg{
+    width:100%;
+    height:auto;
+  }
+  body .carousel-indicators li{
+    background-color:red;
+  }
+
+
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+	.list2-icon{
+		margin-left: 3px;
+	}
+  }
+  @media only screen and (max-width: 768px) {
+	.list2-icon{
+		margin-left: 5px;
+    }
+    .mainarea{
+        margin-top: 680px;
+    }
+}
+.breadcrumb{
+    background-color: black;
+}
+.mainarea{
+    background-color:#38b16e ;
+	background-image: linear-gradient(to right,#42b45d,#20ab94);
+	padding: 50px;
+    max-height: 400px;
+    margin-bottom: 420px;
+}
+.mainarea img{
+	max-height: 200px;
+	opacity: 0.4;
+}

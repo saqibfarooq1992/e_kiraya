@@ -1,0 +1,46 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19",
+        "bootstrap": "^4.5.3",
+        "cross-env": "^5.1",
+        "jquery": "^3.5.1",
+        "laravel-mix": "^5.0.9",
+        "lodash": "^4.17.20",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.30.0",
+        "sass-loader": "7.*",
+        "vue": "^2.6.12",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@smartweb/vue-flash-message": "^0.5.3",
+        "bootstrap-vue": "^2.21.0",
+        "chart.js": "^2.9.4",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "vue-avatar": "^2.3.3",
+        "vue-chartjs": "^3.5.1",
+        "vue-chunks": "^1.0.8",
+        "vue-input-mask": "0.0.11",
+        "vue-meta": "^2.4.0",
+        "vue-read-more": "^1.1.1",
+        "vue-router": "^3.4.9",
+        "vue-scrollto": "^2.20.0",
+        "vue-social-sharing": "^3.0.4",
+        "vue-spinner": "^1.0.4",
+        "vue2-editor": "^2.10.2",
+        "vuejs-scroll-fixed-header": "^1.0.3",
+        "vuex": "^3.6.0"
+    }
+}
